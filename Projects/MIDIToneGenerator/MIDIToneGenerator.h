@@ -68,13 +68,13 @@
 		#define SCALE_FACTOR               65536
 
 		/** Base (lowest) allowable MIDI note frequency */
-		#define BASE_FREQUENCY             27.5
+		#define BASE_FREQUENCY 8.1758
 
 		/** Ratio between each note in an octave */
 		#define NOTE_OCTIVE_RATIO          1.05946
 
 		/** Lowest valid MIDI pitch index */
-		#define BASE_PITCH_INDEX           21
+		#define BASE_PITCH_INDEX 0
 
 		/** Number of samples in the virtual sample table (can be expanded to lower maximum frequency, but allow for
 		 *  more simultaneous notes due to the reduced amount of processing time needed when the samples are spaced out)
